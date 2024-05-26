@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('assets/fonts/Quicksand.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IndieFlower';
+  src: url('assets/fonts/IndieFlower.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h4 {
+  color: rgba(101, 101, 101, 0.64);
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  padding: .5em;
+  width: 20em;
+  border: 1px solid rgba(77, 77, 227, 0.19);
+  font-family: 'Quicksand', sans-serif;
+  border-radius: .5em;
+  outline: none;
+}
+
+button {
+  padding: .5em;
+  background-color: rgba(77, 77, 227, 0.19);
+  font-family: 'Quicksand', sans-serif;
+  border-radius: .5em;
+  border: none;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+hr {
+  border: .5px solid rgba(77, 77, 227, 0.19);
+}

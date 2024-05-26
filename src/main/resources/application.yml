@@ -1,0 +1,10 @@
+app:
+  mqtt:
+    uri: tcp://localhost:1883
+    topic: myTopic
+  websocket:
+    path: /ws-mqtt
+    topic: /ws-mqtt-topic
+spring:
+  application:
+    name: mqtt-spring-boot-sample

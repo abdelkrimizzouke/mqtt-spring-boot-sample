@@ -1,0 +1,49 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: .2em;
+  margin: 2em;
+  position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+  padding: 1em;
+  border-radius: .5em;
+  background-color: white;
+}
+
+.title {
+  font-family: IndieFlower, sans-serif;
+  font-size: 2em;
+  color: rgba(77, 77, 227, 0.83);
+  margin-bottom: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: .2em;
+  border: 1px solid rgba(77, 77, 227, 0.19);
+  border-radius: .5em;
+  padding: 1em;
+}
+
+.left-side {
+  flex: 1 1 60%;
+}
+
+.right-side {
+  flex: 1 1 40%;
+  padding: 1em;
+  border: 1px solid rgba(77, 77, 227, 0.19);
+  background-color: rgba(77, 77, 227, 0.04);
+  border-radius: .5em;
+}
+
+.field {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.field-text {
+  width: 100% !important;
+}
