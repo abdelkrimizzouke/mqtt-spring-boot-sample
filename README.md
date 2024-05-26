@@ -1,6 +1,7 @@
 #### 🎯 Overview
 
-![image](https://github.com/abdelkrimizzouke/mqtt-spring-boot-sample/assets/170672297/043979d8-ae24-4550-8197-cca772553cdf)
+![image](https://github.com/abdelkrimizzouke/mqtt-spring-boot-sample/assets/170672297/a8bd6bdd-31a0-4648-a349-7ba2b6be5799)
+
 
 #### 📝 Prerequisites
 ```
@@ -65,6 +66,15 @@ The following steps outline how the project works to send and receive messages u
 ▫️ The frontend subscribes to the /topic/messages topic to receive real-time updates of MQTT messages.
 
 ▫️ Messages received via WebSocket are displayed in a list on the frontend.
+```
+#### Testing
+```
+▫️ Clone the project and open it in your preferred IDE.
+▫️ Make sure Mosquitto is installed and running on port 1883. If another port is chosen, ensure it is updated in application.yml.
+▫️ Run the Spring Boot application on port 8080. If you select a different port, make sure to update it in the frontend 'WebSocket endpoint'.
+▫️ In your navigator enter : http://localhost:8080/index.html
+▫️ Click on "Connect WebSocket"
+▫️ Enter your message and click on "Publish Message"
 ```
 #### Contributing
 
